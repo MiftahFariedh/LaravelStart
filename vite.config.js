@@ -15,6 +15,8 @@ export default defineConfig({
     resolve: {
         alias: {
             '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'),
+            '~admin-lte': path.resolve(__dirname, 'node_modules/admin-lte'),
+            '~@fortawesome': path.resolve(__dirname, 'node_modules/@fortawesome'),
         }
     }
 });
